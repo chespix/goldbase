@@ -1,12 +1,12 @@
-# Goldbase Quick Start :money_with_wings:
+## Goldbase Quick Start :money_with_wings:
 
 If you want to try the Goldbase CloudFormation stacks, this is way easier than figuring out what you need to do from that pdf.
 
 Prereqs:
 
-* AWS Account
-* Git installed
-* AWS CLI installed and configured
+* [AWS Account](https://aws.amazon.com/)
+* [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [AWS CLI installed and configured](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
 To get yourself going:
 
@@ -30,4 +30,5 @@ aws cloudformation create-stack --stack-name goldbase-$(date +%Y%m%d%H%M%S) \
     ParameterKey=pRegionAZ2Name,ParameterValue=$az1 \
     ParameterKey=pRegionAZ1Name,ParameterValue=$az2 \
     ParameterKey=pCreateCloudTrail,ParameterValue=$newaccount \
-    ParameterKey=pDBPassword,ParameterValue=$password```
+    ParameterKey=pDBPassword,ParameterValue=$password
+```
