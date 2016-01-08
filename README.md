@@ -1,3 +1,5 @@
+# goldbase quick start
+
 to get yourself going:
 
 * clone the repo
