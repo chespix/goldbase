@@ -32,3 +32,5 @@ aws cloudformation create-stack --stack-name goldbase-$(date +%Y%m%d%H%M%S) \
     ParameterKey=pCreateCloudTrail,ParameterValue=$newaccount \
     ParameterKey=pDBPassword,ParameterValue=$password
 ```
+
+It'll take about 30m for everything to get up and running (and probably like 25 of those are RDS.) 
