@@ -8,7 +8,8 @@ az1="choose-an-availabilty-zone"
 az2="choose-a-different-availabilty-zone-in-same-region"
 dbpass="a-secure-password"
 
-aws cloudformation create-stack --stack-name goldbase-$(date +%Y%m%d%H%M%S) --template-body file://main-webapp-linux.json \
+aws cloudformation create-stack --stack-name goldbase-$(date +%Y%m%d%H%M%S) \
+  --template-body file://main-webapp-linux.json \
   --disable-rollback \
   --capabilities="CAPABILITY_IAM" \
   --parameters \
