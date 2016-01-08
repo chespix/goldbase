@@ -1,9 +1,18 @@
-# goldbase quick start
+# Goldbase Quick Start :money_with_wings:
 
-to get yourself going:
+If you want to try the Goldbase CloudFormation stacks, this is way easier than figuring out what you need to do from that pdf.
 
-* clone the repo
-* run these commands
+Prereqs:
+
+* AWS Account
+* Git installed
+* AWS CLI installed and configured
+
+To get yourself going:
+
+* clone this repo
+* change the variable values below
+* run the cloudformation command
 
 ```keyname="your-ec2-keypair-name"
 az1="choose-an-availabilty-zone"
