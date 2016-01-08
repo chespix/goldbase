@@ -9,6 +9,8 @@ to get yourself going:
 az1="choose-an-availabilty-zone"
 az2="choose-a-different-availabilty-zone-in-same-region"
 dbpass="a-secure-password"
+# if you already have cloudtrail set up, leave this as false
+newaccount=false
 
 aws cloudformation create-stack --stack-name goldbase-$(date +%Y%m%d%H%M%S) \
   --template-body file://main-webapp-linux.json \
@@ -18,5 +20,5 @@ aws cloudformation create-stack --stack-name goldbase-$(date +%Y%m%d%H%M%S) \
     ParameterKey=pKeyName,ParameterValue=$keyname \
     ParameterKey=pRegionAZ2Name,ParameterValue=$az1 \
     ParameterKey=pRegionAZ1Name,ParameterValue=$az2 \
-    ParameterKey=pCreateCloudTrail,ParameterValue=false \
+    ParameterKey=pCreateCloudTrail,ParameterValue=$newaccount \
     ParameterKey=pDBPassword,ParameterValue=$password```
