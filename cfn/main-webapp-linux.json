@@ -297,22 +297,22 @@
       "stack1URL": {
          "Description": "Valid S3 URL of location where Stack1 template exists",
          "Type": "String",
-         "Default": "https://s3.amazonaws.com/quickstart-reference/security-compliance/latest/templates/stack1-access-01.json"
+         "Default": "https://s3.amazonaws.com/stelligent-goldbase/stack1-access-01.json"
       },
       "stack2URL": {
          "Description": "Valid S3 URL of location where Stack2 template exists",
          "Type": "String",
-         "Default": "https://s3.amazonaws.com/quickstart-reference/security-compliance/latest/templates/stack2-network-01.json"
+         "Default": "https://s3.amazonaws.com/stelligent-goldbase/stack2-network-01.json"
       },
       "stack3URL": {
          "Description": "Valid S3 URL of location where Stack3 template exists",
          "Type": "String",
-         "Default": "https://s3.amazonaws.com/quickstart-reference/security-compliance/latest/templates/stack3-resources-01.json"
+         "Default": "https://s3.amazonaws.com/stelligent-goldbase/stack3-resources-01.json"
       },
       "stack4URL": {
          "Description": "Valid S3 URL of location where Stack4 template exists",
          "Type": "String",
-	 "Default" : "https://s3.amazonaws.com/quickstart-reference/security-compliance/latest/templates/stack4-application-01.json"
+	 "Default" : "https://s3.amazonaws.com/stelligent-goldbase/stack4-application-01.json"
       },
       "pWebServerAMI": {
          "Description": "Which webserver AMI do you want to use, default ",
