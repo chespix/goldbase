@@ -18,6 +18,7 @@ To get yourself going:
 az1="choose-an-availabilty-zone"
 az2="choose-a-different-availabilty-zone-in-same-region"
 dbpass="a-secure-password"
+keyname="your-keypair"
 # if you already have cloudtrail set up, leave this as false
 newaccount=false
 
